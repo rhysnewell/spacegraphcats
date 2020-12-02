@@ -41,7 +41,7 @@ setup(
         "setuptools_scm",
         "setuptools_scm_git_archive",
     ],
-    use_scm_version={"write_to": "spacegraphcats/version.py"},
+    # use_scm_version={"write_to": "spacegraphcats/version.py"},
     install_requires=[
         "screed",
         "pytest",
